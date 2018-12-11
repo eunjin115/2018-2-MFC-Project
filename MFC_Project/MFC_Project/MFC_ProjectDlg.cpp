@@ -65,6 +65,11 @@ BEGIN_MESSAGE_MAP(CMFC_ProjectDlg, CDialogEx)
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
 	ON_BN_CLICKED(IDC_BUTTON1, &CMFC_ProjectDlg::OnBnClickedButton1)
+	ON_COMMAND(IDC_RADIO1, &CMFC_ProjectDlg::OnRadio1)
+	ON_BN_CLICKED(IDC_BUTTON2, &CMFC_ProjectDlg::OnBnClickedButton2)
+	ON_BN_CLICKED(IDC_BUTTON3, &CMFC_ProjectDlg::OnBnClickedButton3)
+	ON_BN_CLICKED(IDC_BUTTON4, &CMFC_ProjectDlg::OnBnClickedButton4)
+	ON_BN_CLICKED(IDC_BUTTON5, &CMFC_ProjectDlg::OnBnClickedButton5)
 END_MESSAGE_MAP()
 
 
@@ -160,5 +165,48 @@ void CMFC_ProjectDlg::OnBnClickedButton1()
 	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
 	CString str;
 	str.Format(_T("눌려짐"));
+	AfxMessageBox(str);
+}
+
+
+void CMFC_ProjectDlg::OnRadio1()
+{
+	// TODO: 여기에 명령 처리기 코드를 추가합니다.
+
+}
+
+
+void CMFC_ProjectDlg::OnBnClickedButton2()
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	CString str;
+	str.Format(_T("2번버튼눌려짐"));
+	AfxMessageBox(str);
+}
+
+
+void CMFC_ProjectDlg::OnBnClickedButton3()
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	CString str;
+	str.Format(_T("3번버튼눌려짐"));
+	AfxMessageBox(str);
+}
+
+
+void CMFC_ProjectDlg::OnBnClickedButton4()
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	CString str;
+	str.Format(_T("3번버튼"));
+	AfxMessageBox(str);
+}
+
+
+void CMFC_ProjectDlg::OnBnClickedButton5()
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	CString str;
+	str.Format(_T("3번버튼눌려짐"));
 	AfxMessageBox(str);
 }
