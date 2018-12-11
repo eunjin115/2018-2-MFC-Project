@@ -70,6 +70,7 @@ BEGIN_MESSAGE_MAP(CMFC_ProjectDlg, CDialogEx)
 	ON_BN_CLICKED(IDC_BUTTON3, &CMFC_ProjectDlg::OnBnClickedButton3)
 	ON_BN_CLICKED(IDC_BUTTON4, &CMFC_ProjectDlg::OnBnClickedButton4)
 	ON_BN_CLICKED(IDC_BUTTON5, &CMFC_ProjectDlg::OnBnClickedButton5)
+	ON_BN_CLICKED(IDC_BUTTON6, &CMFC_ProjectDlg::OnBnClickedButton6)
 END_MESSAGE_MAP()
 
 
@@ -208,5 +209,14 @@ void CMFC_ProjectDlg::OnBnClickedButton5()
 	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
 	CString str;
 	str.Format(_T("3번버튼눌려짐"));
+	AfxMessageBox(str);
+}
+
+
+void CMFC_ProjectDlg::OnBnClickedButton6()
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	CString str;
+	str.Format(_T("6번버튼눌려짐"));
 	AfxMessageBox(str);
 }
