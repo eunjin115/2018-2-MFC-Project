@@ -39,6 +39,10 @@ public:
 	afx_msg void OnBnClickedButton4();
 	afx_msg void OnBnClickedButton5();
 	afx_msg void OnBnClickedButton6();
+<<<<<<< HEAD
 	afx_msg void OnEnChangeEdit100();
 	afx_msg void OnBnClickedButton55();
+=======
+	afx_msg void OnBnClickedButton46();
+>>>>>>> ec6a3147f7366628f8133af4ce9821886594a85d
 };
