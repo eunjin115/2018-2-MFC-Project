@@ -40,8 +40,12 @@ public:
 	afx_msg void OnBnClickedButton5();
 	afx_msg void OnBnClickedButton6();
 <<<<<<< HEAD
+<<<<<<< HEAD
 	afx_msg void OnEnChangeEdit100();
 	afx_msg void OnBnClickedButton55();
+=======
+	afx_msg void OnBnClickedButton2236();
+>>>>>>> 603ca7366551855c1a6b86ad8ef6ed7cae5b5c8c
 =======
 	afx_msg void OnBnClickedButton46();
 >>>>>>> ec6a3147f7366628f8133af4ce9821886594a85d
