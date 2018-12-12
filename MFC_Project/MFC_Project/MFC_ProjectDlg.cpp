@@ -66,6 +66,8 @@ BEGIN_MESSAGE_MAP(CMFC_ProjectDlg, CDialogEx)
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
 	ON_BN_CLICKED(IDC_BUTTON1, &CMFC_ProjectDlg::OnBnClickedButton1)
+	ON_EN_CHANGE(IDC_EDIT100, &CMFC_ProjectDlg::OnEnChangeEdit100)
+	ON_BN_CLICKED(IDC_BUTTON55, &CMFC_ProjectDlg::OnBnClickedButton55)
 END_MESSAGE_MAP()
 
 
@@ -164,3 +166,26 @@ void CMFC_ProjectDlg::OnBnClickedButton1()
 	AfxMessageBox(str);
 }
 
+
+
+void CMFC_ProjectDlg::OnEnChangeEdit100()
+{
+	// TODO:  RICHEDIT 컨트롤인 경우, 이 컨트롤은
+	// CDialogEx::OnInitDialog() 함수를 재지정 
+	//하고 마스크에 OR 연산하여 설정된 ENM_CHANGE 플래그를 지정하여 CRichEditCtrl().SetEventMask()를 호출하지 않으면
+	// 이 알림 메시지를 보내지 않습니다.
+
+	// TODO:  여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	CString str;
+	str.Format(_T("눌려짐"));
+	AfxMessageBox(str);
+}
+
+
+void CMFC_ProjectDlg::OnBnClickedButton55()
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	CString str;
+	str.Format(_T("눌려짐"));
+	AfxMessageBox(str);
+}
