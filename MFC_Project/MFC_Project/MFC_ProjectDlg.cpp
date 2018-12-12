@@ -66,7 +66,11 @@ BEGIN_MESSAGE_MAP(CMFC_ProjectDlg, CDialogEx)
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
 	ON_BN_CLICKED(IDC_BUTTON1, &CMFC_ProjectDlg::OnBnClickedButton1)
+<<<<<<< HEAD
 	ON_BN_CLICKED(IDC_BUTTON2236, &CMFC_ProjectDlg::OnBnClickedButton2236)
+=======
+	ON_BN_CLICKED(IDC_BUTTON46, &CMFC_ProjectDlg::OnBnClickedButton46)
+>>>>>>> ec6a3147f7366628f8133af4ce9821886594a85d
 END_MESSAGE_MAP()
 
 
@@ -167,10 +171,19 @@ void CMFC_ProjectDlg::OnBnClickedButton1()
 
 
 
+<<<<<<< HEAD
 void CMFC_ProjectDlg::OnBnClickedButton2236()
 {
 	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
 	CString str;
 	str.Format(_T("2236눌려짐"));
+=======
+void CMFC_ProjectDlg::OnBnClickedButton46()
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	CString str;
+	str.Format(_T("눌려짐"));
+>>>>>>> ec6a3147f7366628f8133af4ce9821886594a85d
 	AfxMessageBox(str);
 }
