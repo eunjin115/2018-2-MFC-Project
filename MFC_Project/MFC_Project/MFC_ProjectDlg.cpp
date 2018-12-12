@@ -66,16 +66,16 @@ BEGIN_MESSAGE_MAP(CMFC_ProjectDlg, CDialogEx)
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
 	ON_BN_CLICKED(IDC_BUTTON1, &CMFC_ProjectDlg::OnBnClickedButton1)
-<<<<<<< HEAD
-<<<<<<< HEAD
+//<<<<<<< HEAD
+//<<<<<<< HEAD
 	ON_EN_CHANGE(IDC_EDIT100, &CMFC_ProjectDlg::OnEnChangeEdit100)
 	ON_BN_CLICKED(IDC_BUTTON55, &CMFC_ProjectDlg::OnBnClickedButton55)
-=======
+//=======
 	ON_BN_CLICKED(IDC_BUTTON2236, &CMFC_ProjectDlg::OnBnClickedButton2236)
->>>>>>> 603ca7366551855c1a6b86ad8ef6ed7cae5b5c8c
-=======
+//>>>>>>> 603ca7366551855c1a6b86ad8ef6ed7cae5b5c8c
+//=======
 	ON_BN_CLICKED(IDC_BUTTON46, &CMFC_ProjectDlg::OnBnClickedButton46)
->>>>>>> ec6a3147f7366628f8133af4ce9821886594a85d
+//>>>>>>> ec6a3147f7366628f8133af4ce9821886594a85d
 END_MESSAGE_MAP()
 
 
